@@ -106,7 +106,7 @@ if __name__ == '__main__':
     driver.find_element(By.ID, 'btnDownloadCertidaoLot').click()#faz o download
     time.sleep(15)
     driver.quit()
-    py.alert('Download concluído! Confira sua pasta de Downloads. Caso não apareça, tente')
+    py.alert('Download concluído! Confira sua pasta de Downloads. Caso não apareça, tente novamente')
 
 
 """)
