@@ -104,7 +104,7 @@ if __name__ == '__main__':
     wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'select2-selection__placeholder'))).click()#abrir busca
     wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/span/span/span[1]/input"))).send_keys(CNPJ_empresa + Keys.ENTER)#busca
     driver.find_element(By.ID, 'btnDownloadCertidaoLot').click()#faz o download
-    time.sleep(15)
+    time.sleep(25)
     driver.quit()
     py.alert('Download concluído! Confira sua pasta de Downloads. Caso não apareça, tente novamente')
 
